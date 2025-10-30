@@ -12,7 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
+<<<<<<< HEAD
         working-directory: IoTdevicebackend/IoTdevicebackend
+=======
+        working-directory: .
+>>>>>>> 0c811f050c03d88824aadf4471216ad925a0aba0
 
     steps:
       - name: Checkout repository
