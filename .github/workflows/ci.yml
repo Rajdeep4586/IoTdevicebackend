@@ -1,4 +1,4 @@
-iname: IoT Project CI/CD
+name: IoT Project CI/CD
 
 on:
   push:
