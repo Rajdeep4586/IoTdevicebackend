@@ -23,11 +23,11 @@ jobs:
           java-version: '17'
 
       - name: Build Backend with Maven
-        working-directory: IoTdevicebackend/IoTdevicebackend
+        
         run: mvn clean package -DskipTests
 
       - name: Run Backend Tests
-        working-directory: IoTdevicebackend/IoTdevicebackend
+        
         run: mvn test
 
       - name: Upload JAR Artifact
@@ -52,11 +52,11 @@ jobs:
           node-version: '18'
 
       - name: Install Dependencies
-        working-directory: IoTdevicebackend/frontend
+        
         run: npm install
 
       - name: Build Frontend
-        working-directory: IoTdevicebackend/frontend
+        
         run: npm run build
 
       - name: Upload Build Artifact
