@@ -1,4 +1,4 @@
-iname: IoT Project CI/CD
+name: IoT Project CI/CD
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     defaults:
       run:
 
-        working-directory: IoTdevicebackend/IoTdevicebackend
+        working-directory: IoTdevicebackend
 
     steps:
       - name: Checkout repository
